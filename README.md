@@ -25,6 +25,8 @@ This python script automatically fetches the latest build of [Paper](https://pap
 Put in same directory as minecraft and run `./updater.py` or with your python3 interpreter. Change the version number in the `VERSION` variable to your desire. This updater also supports [Waterfall](https://papermc.io/downloads#Waterfall), just change the `PROJECT` variable.
 Can be used in conjunction with start.sh. 
 
+Tested on Windows (Python 3.9) and RHEL 7 (Python 3.6)
+
 ## backup.sh
 This script allows you to backup your minecraft installation. It will delete backups older than 1 week. To use, you will need to install [mcrcon](https://github.com/Tiiffi/mcrcon).
 

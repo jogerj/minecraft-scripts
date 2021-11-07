@@ -4,6 +4,7 @@ Useful minecraft scripts for hosting with Paper server
 
 
 ## start.sh
+### Setup
 Make sure `screen` is installed (e.g. on Ubuntu `sudo apt-get install screen`, see [guide](https://linuxize.com/post/how-to-use-linux-screen/) for others)
 
 1. `screen -S "minecraft"`

@@ -20,9 +20,8 @@ Ctrl+A then D to detach from screen
 Consult [guide on Aikar's flags](https://mcflags.emc.gs/).
 
 ## updater.py
-This python script automatically fetches the latest build from [papermc.io](https://papermc.io).
+This python script automatically fetches the latest build from [papermc.io](https://papermc.io). **DO NOT AUTOMATE THE UPDATER!** Don't make the updater replace your jar files directly, it is a very bad practice! Always have a backup of your previous jar file.
 
-Put in same directory as minecraft and run `./updater.py` or with your python3 interpreter. 
-Use in conjunction with start.sh. 
-**DO NOT AUTOMATE THE UPDATER**.
-Always call updater manually in case update failed.
+Put in same directory as minecraft and run `./updater.py` or with your python3 interpreter. Change the version number in the `VERSION` variable to your desire. This updater also supports Waterfall, just change the `PROJECT` variable.
+Can be used in conjunction with start.sh. 
+

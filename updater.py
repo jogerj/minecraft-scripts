@@ -3,12 +3,13 @@
 ### VARIABLES
 # uncomment/comment which one you use
 PROJECT = "paper"
-# PROJECT = "waterfall"
+#PROJECT = "waterfall"
 
 VERSION = "1.17.1"
+#VERSION = "1.17"
 
 FILENAME = "paper_update.jar" # DO NOT OVERWRITE 'paper.jar' DIRECTLY
-# FILENAME = "waterfall_update.jar" # DO NOT OVERWRITE 'waterfall.jar' DIRECTLY
+#FILENAME = "waterfall_update.jar" # DO NOT OVERWRITE 'waterfall.jar' DIRECTLY
 
 ### DO NOT CHANGE BELOW ###
 

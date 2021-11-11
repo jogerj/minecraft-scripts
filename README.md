@@ -9,8 +9,9 @@ Make sure `screen` is installed (e.g. on Ubuntu `sudo apt-get install screen`, s
 
 1. `screen -S "minecraft"`
 2. `screen -ls` to list all screens
-3. Change `MC` and `MC_UPDATE` variables when appropriate (`paper.jar`, `server.jar`, `spigot.jar`, etc.)
-4. (Optional) if you want to update your server client, just save as filename determined by `MC_UPDATE` variable and call `restart` in console; or stop the server and then run `./start.sh`
+3. Change `MC` and `MC_UPDATE` variables when appropriate (`paper.jar`, `server.jar`, `spigot.jar`, etc.). Use absolute path if you want to run with cron.
+4. (Optional) if you want to update your server jar, just save as filename determined by `MC_UPDATE` variable and call `restart` in console; or stop the server and then run `./start.sh`
+5. (Optional) In case your machine reboots, edit crontab with `crontab -e` and add `@reboot /path/to/start.sh > /dev/null 2>&1`. Your server will automatically start again (only use if you have automated backup running)
 
 Ctrl+A then D to detach from screen
 

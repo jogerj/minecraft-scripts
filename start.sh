@@ -1,7 +1,8 @@
 #!/bin/sh
 
-MC="paper.jar"
-MC_UPDATE="paper_update.jar"
+# Use absolute path!
+MC="/home/username/minecraft/paper.jar"
+MC_UPDATE="/home/username/minecraft/paper_update.jar"
 
 # Replace if update exists
 if test -f "$MC_UPDATE"; then

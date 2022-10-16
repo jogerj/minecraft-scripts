@@ -14,7 +14,7 @@ function rcon {
 
 rcon "save-off"
 rcon "save-all"
-tar -cvpzf $BACKUP_PATH/server-$(date +%F_%R).tar.gz $MC_PATH
+tar -cvpzf $BACKUP_PATH/server-$(date +%F_%H%M).tar.gz $MC_PATH
 rcon "save-on"
 ## Delete older backups
 find $BACKUP_PATH -type f -mtime +7 -name '*.gz' -delete
